@@ -1,0 +1,68 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: 0;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#app-name {
+  color: #428bca;
+}
+#map {
+  position: relative;
+  height: 60vh;
+  border-radius: 4px;
+}
+#pictureUpload {
+  margin-top: 6vh;
+  margin-bottom: 4vh;
+}
+.div-download {
+  margin: auto;
+}
+#picture-info-dev {
+  margin: 0;
+  padding: 0;
+}
+#picture-info-panel {
+  height: 80vh;
+  margin-top: 10px;
+}
+@media (min-width: 992px) {
+  #picture-info-panel {
+    margin-top: 0;
+  }
+}
+.picture-info {
+  padding: 0;
+}
+.picture-name-div {
+  padding: 0;
+}
+.picture-date-div {
+  padding: 0;
+  width: 100%;
+}
+.picture-info-box {
+  border-bottom: 1px solid grey;
+  height: 250px;
+}
+@media (min-width: 768px) {
+  .picture-info-box {
+    height: 150px;
+  }
+}
